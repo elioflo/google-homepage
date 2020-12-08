@@ -1,0 +1,48 @@
+.delinea{
+    display: inline-block;
+}
+
+.bloque{
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.75;
+    font-family: arial ,sans-serif;
+    font-size: 13px;
+}
+
+.centrado{
+    margin: 0 auto;
+}
+
+ul{
+    margin: 0;
+    padding: 5px 20px;
+}
+
+#main_img{
+    padding-top: 109px;
+}
+
+#main_input{
+    margin-top: 30px;
+    width: 487px;
+    height: 34px;
+}
+
+#main_btns{
+    width: 240px;
+
+}
+
+nav, footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    margin-bottom: 300px;
+}
