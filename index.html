@@ -2,32 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
     <link rel="stylesheet" href="styles.css">
-    <title>Title</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Google Homepage</title>
 </head>
 <body>
 <header>
     <nav>
-        <ul class="delinea">
-            <il><a href="">About</a></il>
-            <il><a href="">Store</a></il>
-        </ul>
-        <ul class="delinea">
+        <ul class="nav-right-section">
             <il><a href="">Gmail</a></il>
             <il><a href="">Images</a></il>
-            <il><i></i></il>
-            <il><button></button></il>
+            <il><a href=""><i class="material-icons">apps</i></a></il>
+            <il><a href=""><i class="material-icons">person</i></a></il>
         </ul>
     </nav>
 </header>
-<main id="main">
-    <img id="main_img" class="bloque centrado"
-         src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
-    <input id="main_input" class="bloque centrado" type="text">
-    <div id="main_btns" class="centrado">
-        <button>Google Search</button>
-        <button>I'm Feeling Lucky</button>
-    </div>
+<main>
+    <section class="main-logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+    </section>
+    <section>
+        <div class="main-input-container">
+            <span class="material-icons">search</span>
+            <input type="text">
+            <a href="" class="material-icons" style="color: black">mic</a>
+        </div>
+    </section>
+    <section>
+        <div>
+            <button>Buscar con Google</button>
+            <button>Me siento con suerte</button>
+        </div>
+    </section>
 </main>
 <footer>
     <ul class="delinea">
